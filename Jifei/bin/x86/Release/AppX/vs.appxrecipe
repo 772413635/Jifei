@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>METER-PC</Machine>
+    <WindowsUser>Meter</WindowsUser>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>f58186xuhonggang.AA</PackageIdentityName>
+    <RegisteredManifestChecksum>74AAF078AC97DFD51ACAF3F88BF0BDB9EFF871D79C41F139F323F5ABDAB64FD2</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>f58186xuhonggang.AA_1.1.0.6_x86__ft2z5crqtdhvp</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>f58186xuhonggang.AA_ft2z5crqtdhvp!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>f58186xuhonggang.AA</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=75472F7C-EAA4-4784-A91F-F6DEE7B4626A</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.6</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\源代码\Jifei\Jifei\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-29T03:48:30.352</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\源代码\Jifei\DataControl\bin\x86\Release\DataControl.winmd">
+      <PackagePath>DataControl.winmd</PackagePath>
+      <Modified>2014-01-29T03:32:15.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\DataControl\bin\x86\Release\MeData.dll">
+      <PackagePath>MeData.dll</PackagePath>
+      <Modified>2014-01-09T13:15:20.738</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\data\data.xml">
+      <PackagePath>data\data.xml</PackagePath>
+      <Modified>2013-07-28T07:40:18.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-01-29T04:12:45.215</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\bar.png">
+      <PackagePath>images\bar.png</PackagePath>
+      <Modified>2013-07-25T10:52:41.176</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\cloumn.png">
+      <PackagePath>images\cloumn.png</PackagePath>
+      <Modified>2013-07-25T10:52:41.080</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\logo-w.png">
+      <PackagePath>images\logo-w.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T02:34:59.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T05:37:36.212</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T05:47:53.263</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T06:13:06.925</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T05:40:15.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T06:26:01.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-19T05:45:41.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\xxx01.png">
+      <PackagePath>images\xxx01.png</PackagePath>
+      <Modified>2013-07-25T10:52:41.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\xxx03.png">
+      <PackagePath>images\xxx03.png</PackagePath>
+      <Modified>2013-07-25T10:52:41.195</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\未加载.png">
+      <PackagePath>images\未加载.png</PackagePath>
+      <Modified>2013-09-04T16:51:59.111</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\￥.png">
+      <PackagePath>images\￥.png</PackagePath>
+      <Modified>2013-07-25T10:52:41.166</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\images\load.gif">
+      <PackagePath>images\load.gif</PackagePath>
+      <Modified>2013-08-06T02:33:21.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\Base.js">
+      <PackagePath>js\Base.js</PackagePath>
+      <Modified>2013-08-14T15:12:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\BuyUser.js">
+      <PackagePath>js\BuyUser.js</PackagePath>
+      <Modified>2013-09-04T14:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart.js">
+      <PackagePath>js\chart.js</PackagePath>
+      <Modified>2013-09-11T12:25:11.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\globalize.min.js">
+      <PackagePath>js\chart\globalize.min.js</PackagePath>
+      <Modified>2013-09-06T00:34:03.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery-ui-1.10.1.custom.min.js">
+      <PackagePath>js\chart\jquery-ui-1.10.1.custom.min.js</PackagePath>
+      <Modified>2013-09-06T00:35:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery.wijmo.raphael.js">
+      <PackagePath>js\chart\jquery.wijmo.raphael.js</PackagePath>
+      <Modified>2013-09-06T00:34:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery.wijmo.widget.js">
+      <PackagePath>js\chart\jquery.wijmo.widget.js</PackagePath>
+      <Modified>2013-09-06T00:34:31.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery.wijmo.wijbarchart.js">
+      <PackagePath>js\chart\jquery.wijmo.wijbarchart.js</PackagePath>
+      <Modified>2013-09-06T00:34:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery.wijmo.wijchartcore.js">
+      <PackagePath>js\chart\jquery.wijmo.wijchartcore.js</PackagePath>
+      <Modified>2013-09-06T00:34:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\jquery.wijmo.wijpiechart.js">
+      <PackagePath>js\chart\jquery.wijmo.wijpiechart.js</PackagePath>
+      <Modified>2013-09-06T00:34:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\chart\raphael-min.js">
+      <PackagePath>js\chart\raphael-min.js</PackagePath>
+      <Modified>2013-09-06T00:35:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2014-01-29T03:25:52.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\jquery-2.0.min.js">
+      <PackagePath>js\jquery-2.0.min.js</PackagePath>
+      <Modified>2013-09-06T00:33:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\js\Models\Js_CSharp.js">
+      <PackagePath>js\Models\Js_CSharp.js</PackagePath>
+      <Modified>2013-09-03T15:04:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2014-01-29T04:12:36.272</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.2\Redist\Retail\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2014-01-06T14:33:39.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\源代码\Jifei\Jifei\bin\x86\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-29T03:48:23.586</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>METER-PC</Machine>
+    <WindowsUser>Meter</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>f58186xuhonggang.AA</PackageIdentityName>
+    <IntermediateOutputPath>F:\产品\Jifei\Jifei\bld\x86\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\产品\Jifei\Jifei\bin\x86\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\产品\Jifei\DataControl\bin\x86\Release\DataControl.winmd">
+      <PackagePath>DataControl.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\DataControl\bin\x86\Release\MeData.dll">
+      <PackagePath>MeData.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\data\data.xml">
+      <PackagePath>data\data.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\bar.png">
+      <PackagePath>images\bar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\cloumn.png">
+      <PackagePath>images\cloumn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\logo-w.png">
+      <PackagePath>images\logo-w.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\xxx01.png">
+      <PackagePath>images\xxx01.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\xxx03.png">
+      <PackagePath>images\xxx03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\未加载.png">
+      <PackagePath>images\未加载.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\￥.png">
+      <PackagePath>images\￥.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\images\load.gif">
+      <PackagePath>images\load.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\Base.js">
+      <PackagePath>js\Base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\BuyUser.js">
+      <PackagePath>js\BuyUser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart.js">
+      <PackagePath>js\chart.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\globalize.min.js">
+      <PackagePath>js\chart\globalize.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery-ui-1.10.1.custom.min.js">
+      <PackagePath>js\chart\jquery-ui-1.10.1.custom.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery.wijmo.raphael.js">
+      <PackagePath>js\chart\jquery.wijmo.raphael.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery.wijmo.widget.js">
+      <PackagePath>js\chart\jquery.wijmo.widget.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery.wijmo.wijbarchart.js">
+      <PackagePath>js\chart\jquery.wijmo.wijbarchart.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery.wijmo.wijchartcore.js">
+      <PackagePath>js\chart\jquery.wijmo.wijchartcore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\jquery.wijmo.wijpiechart.js">
+      <PackagePath>js\chart\jquery.wijmo.wijpiechart.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\chart\raphael-min.js">
+      <PackagePath>js\chart\raphael-min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\jquery-2.0.min.js">
+      <PackagePath>js\jquery-2.0.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\js\Models\Js_CSharp.js">
+      <PackagePath>js\Models\Js_CSharp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\产品\Jifei\Jifei\bin\x86\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

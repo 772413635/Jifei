@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="58186xuhonggang.AA" Version="1.0.0.6" Publisher="CN=75472F7C-EAA4-4784-A91F-F6DEE7B4626A" />
+  <Properties>
+    <DisplayName>AA制生活</DisplayName>
+    <PublisherDisplayName>xuhonggang</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="AA制生活" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="一款优秀的AA制生活消费统计软件" ForegroundText="light" BackgroundColor="#b71944">
+        <DefaultTile ShowName="allLogos" WideLogo="images\logo-w.png" />
+        <SplashScreen Image="images\splashscreen.png" BackgroundColor="#b71944" />
+        <InitialRotationPreference>
+          <Rotation Preference="portrait" />
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

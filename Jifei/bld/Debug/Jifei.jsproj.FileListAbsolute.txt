@@ -1,0 +1,17 @@
+F:\源代码\Jifei\Jifei\bin\Debug\resources.pri
+F:\源代码\Jifei\Jifei\bin\Debug\AppxManifest.xml
+F:\源代码\Jifei\Jifei\bin\Debug\Jifei.build.appxrecipe
+F:\源代码\Jifei\Jifei\bld\Debug\priconfig.xml.intermediate
+F:\源代码\Jifei\Jifei\bld\Debug\layout.resfiles.intermediate
+F:\源代码\Jifei\Jifei\bld\Debug\resources.resfiles.intermediate
+F:\源代码\Jifei\Jifei\bld\Debug\pri.resfiles.intermediate
+F:\源代码\Jifei\Jifei\bld\Debug\priconfig.xml
+F:\源代码\Jifei\Jifei\bld\Debug\layout.resfiles
+F:\源代码\Jifei\Jifei\bld\Debug\resources.resfiles
+F:\源代码\Jifei\Jifei\bld\Debug\pri.resfiles
+F:\源代码\Jifei\Jifei\bld\Debug\LanguageQualifiers.txt
+F:\源代码\Jifei\Jifei\bld\Debug\ProjectArchitectures.txt
+F:\源代码\Jifei\Jifei\bin\Debug\DataControl.winmd
+F:\源代码\Jifei\Jifei\bin\Debug\DataControl.pdb
+F:\源代码\Jifei\Jifei\bin\Debug\DataControl.pri
+F:\源代码\Jifei\Jifei\bld\Debug\Jifei.jsprojResolveAssemblyReference.cache

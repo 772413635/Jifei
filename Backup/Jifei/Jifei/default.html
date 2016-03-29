@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>Jifei</title>
+
+    <!-- WinJS 引用 -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Jifei 引用 -->
+    <link href="css/default.css" rel="stylesheet" />
+    <script src="js/jquery-2.0.min.js"></script>
+    <script src="js/chart/jquery-ui-1.10.1.custom.min.js"></script>
+    <script src="js/chart/globalize.min.js" type="text/javascript"></script>
+    <script src="js/chart/raphael-min.js" type="text/javascript"></script>
+    <script src="js/chart/jquery.wijmo.raphael.js" type="text/javascript"></script>
+    <script src="js/chart/jquery.wijmo.widget.js"></script>
+    <script src="js/chart/jquery.wijmo.wijchartcore.js" type="text/javascript"></script>
+    <script src="js/chart/jquery.wijmo.wijbarchart.js" type="text/javascript"></script>
+    <script src="js/chart/jquery.wijmo.wijpiechart.js"></script>
+    <script src="js/Base.js"></script>
+    <script src="js/Models/Js_CSharp.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/BuyUser.js"></script>
+    <script src="/js/default.js"></script>
+
+</head>
+<body>
+    <div id="main">
+        <div id="left"></div>
+        <div id="head">
+            <div id="btn_jisuan" class="me_button" onclick="jisuan()">算一算</div>
+        </div>
+        <div id="center">
+            <div id="bill">
+                <div id="bill_control">
+                    <div id="bill_control_content">
+                        <ul>
+                            <li>
+                                <input id="name" type="text" value="条目" onfocus="clieckText(this)" onblur="blurText(this)" /></li>
+                            <li>
+                                <input id="price" type="number" value="0.00" onfocus="clieckText(this)" onblur="blurText(this)" /></li>
+                            <li>
+                                 <input id="user" type="text" value="买单人" onkeyup="DloadUserData(this)" onfocus="clieckText(this)" onblur="blurText(this)"/>
+                            </li>
+                            <li>
+                                <div id="bill_jiyibi" class="me_button" onclick="Add()">记一笔</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="bill_content">
+                    <div id="xxx01"></div>
+                    <div id="xxx02">
+                        <table id="bill_content_table">
+                        </table>
+                    </div>
+                    <div id="xxx00"></div>
+                    <div id="xxx03"></div>
+                </div>
+            </div>
+            <div id="chart">
+                <div id="tip">
+                    <div id="tip_cloumn" class="tip" onclick="LoadCloumn()"></div>
+                    <div id="tip_bar" class="tip" onclick="LoadBar()"></div>
+                </div>
+                <div id="chartCloumn" style="display: none;">
+                    <div id="chart_content" class="ui-widget ui-widget-content ui-corner-all">
+                    </div>
+                </div>
+                <div id="chartPie" style="display: none;">
+                    <div id="chart_content2" class="ui-widget ui-widget-content ui-corner-all">
+                    </div>
+                </div>
+                <div id="chartPieNone">
+                    <img id="chartPieNoneimg" src="images/未加载.png" />求计算，求数据......
+                </div>
+                <div id="chartPieNone2" style="display: none">
+                    <img id="Img1" src="images/load.gif" />
+                </div>
+            </div>
+
+            <div id="result">
+                <div id="result_content">
+                    <label class="me_result" style="font-family: 微软雅黑">￥</label><label id="me_result" class="me_result">0.00</label>
+                </div>
+            </div>
+            <div id="floor"></div>
+        </div>
+    </div>
+</body>
+</html>

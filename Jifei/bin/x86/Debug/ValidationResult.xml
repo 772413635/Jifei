@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='C:\ProgramData\Windows App Certification Kit\results.xsl'?>
+<REPORT OVERALL_RESULT="FAIL" VERSION="2.2" LATEST_VERSION="TRUE" UPDATE_DOWNLOAD_URL="" TOOLSET_ARCHITECTURE="X64" SecureBoot="FALSE" APP_TYPE="WindowsStore" PUBLISHER_DISPLAY_NAME="xuhonggang" OSVERSION="6.2.9200.0" OS="Microsoft Windows 8 企业版" PER_USER_APPLICATION="" PARTIAL_RUN="FALSE" LCID="2052" VALIDATION_TYPE="CommandLine" ReportGenerationTime="2013/9/5 20:44:41" ID="e58c0e0d5fa3db460ab9236905492cc6">
+  <REQUIREMENTS>
+    <REQUIREMENT NUMBER="1" TITLE="全新可逆安装测试" RATIONALE="可逆的全新安装使用户能够成功管理(部署和删除)其系统上的应用程序。" />
+    <REQUIREMENT NUMBER="2" TITLE="安装到正确的文件夹测试" RATIONALE="Windows 将在文件系统中提供特定位置，用于存储程序和软件组件、共享应用程序数据以及特定于用户的应用程序数据。" />
+    <REQUIREMENT NUMBER="3" TITLE="数字签名的文件测试" RATIONALE="验证码数字签名使用户不仅能够确保软件是正版软件，而且能够检测文件是否被篡改，例如是否感染了病毒。" />
+    <REQUIREMENT NUMBER="4" TITLE="支持 x64 Windows 测试" RATIONALE="为了维持与 64 位版 Windows 的兼容性，应用程序必须本身支持基于 64 位或至少 32 位 Windows 的应用程序才能在 64 位上无缝运行。" />
+    <REQUIREMENT NUMBER="5" TITLE="操作系统版本检查测试" RATIONALE="应用程序不必执行版本检查以确定等同性(== 5.1)。如果你需要某项特定功能，请检查该功能是否可用。如果你需要 Windows XP，请检查是否存在 Windows XP 或更高版本(&gt;= 5.1)。这样，你的检测代码将继续对更高的 Windows 版本有效。驱动程序安装程序和卸载模块应该从不检查操作系统版本。" />
+    <REQUIREMENT NUMBER="6" TITLE="用户帐户控制(UAC)测试" RATIONALE="大多数应用程序在运行时都不需要管理员特权，只需以标准用户身份运行即可。Windows 应用程序必须有一个清单(嵌入清单或外部清单)，用于定义其执行级别以通知操作系统运行应用程序所需的特权。" />
+    <REQUIREMENT NUMBER="7" TITLE="遵循系统重新启动管理器消息" RATIONALE="如果发生紧急关闭，则向 WM_QUERYENDSESSION 返回 FALSE 的应用程序将收到 WM_ENDSESSION 并关闭；而超时以响应 WM_QUERYENDSESSION 的应用程序将终止。" />
+    <REQUIREMENT NUMBER="8" TITLE="安全模式测试" RATIONALE="默认情况下，在安全模式下将不启动通过 Windows 预安装的大多数驱动程序和服务。除非系统的基本操作或出于诊断和恢复目的需要它们，否则它们应处于禁用状态。" />
+    <REQUIREMENT NUMBER="9" TITLE="多用户会话测试" RATIONALE="Windows 用户应该能够在不出现冲突或中断的情况下运行并发会话。应用程序必须确保以多个会话的方式本地或远程运行时，应用程序的常规功能不应该受影响。应用程序的设置和数据文件不应该跨用户保持。用户的隐私和首选项应该独立于该用户的会话。" />
+    <REQUIREMENT NUMBER="10" TITLE="崩溃和挂起测试" RATIONALE="应用程序故障(例如崩溃和挂起)是指给用户造成严重中断或导致挫折。消除此类故障可提高应用程序的稳定性和可用性，进而从总体上为用户提供更好的应用程序体验。">
+      <TEST INDEX="47" NAME="应用启动测试" DESCRIPTION="应用启动测试。" EXECUTIONTIME="00h:00m:25s.62ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="21" NAME="崩溃或挂起" DESCRIPTION="测试过程中不崩溃或挂起。" EXECUTIONTIME="00h:00m:12s.07ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="11" TITLE="兼容性和复原测试" RATIONALE="Windows 检测到某个应用程序以非兼容方式运行时，它将应用相应的兼容性修复程序以使该应用程序正常运转，从而确保良好的用户体验。但应用程序不应该依赖该行为，因为该行为的目的仅在于使旧版应用程序能够在 Windows 上正常工作。" />
+    <REQUIREMENT NUMBER="12" TITLE="应用清单合规性测试" RATIONALE="包清单缺少一个或多个必需的属性。">
+      <TEST INDEX="31" NAME="应用清单" DESCRIPTION="应用清单必须包括所有必需字段的有效条目。" EXECUTIONTIME="00h:00m:06s.25ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="13" TITLE="Windows 安全最佳做法测试" RATIONALE="应用程序不应该更改默认的 Windows 安全设置。" />
+    <REQUIREMENT NUMBER="14" TITLE="Windows 安全功能测试" RATIONALE="应用程序必须选择启用 Windows 安全功能。">
+      <TEST INDEX="33" NAME="二进制分析器" DESCRIPTION="分析二进制文件启用的安全功能" EXECUTIONTIME="00h:00m:06s.68ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="62" NAME="私有代码签名" DESCRIPTION="应用不应对私有代码签名密钥文件进行打包。" EXECUTIONTIME="00h:00m:02s.47ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="15" TITLE="支持的 API 测试" RATIONALE="应用程序只应引用 Windows SDK 允许 Windows 应用商店应用使用的 API。">
+      <TEST INDEX="38" NAME="支持的 API" DESCRIPTION="Windows 应用商店应用只能使用支持的平台 API。" EXECUTIONTIME="00h:00m:16s.44ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="17" TITLE="性能测试" RATIONALE="应用程序应该提供反应快速而敏捷的启动和挂起体验，同时占用数量合理的系统资源(CPU、文件 IO、内存等)，以便实现在以前未打开的应用程序之间快速切换和多任务处理。">
+      <TEST INDEX="50" NAME="字节码生成" DESCRIPTION="对于包含 HTML5 Windows 应用商店应用的包，字节码生成应能够成功完成。" EXECUTIONTIME="00h:00m:03s.36ms">
+        <RESULT><![CDATA[FAIL]]></RESULT>
+        <MESSAGES>
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\jquery-2.0.min.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\raphael-min.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery-ui-1.10.1.custom.min.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijpiechart.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijchartcore.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijbarchart.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.widget.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.raphael.js 具有 JavaScript 语法或其他问题。" />
+          <MESSAGE TEXT="文件 \\?\C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\globalize.min.js 具有 JavaScript 语法或其他问题。" />
+        </MESSAGES>
+      </TEST>
+      <TEST INDEX="60" NAME="优化的绑定引用" DESCRIPTION="在使用绑定时，WinJS.Binding.optimizeBindingReferences 应该设置为 true 以优化内存使用率。" EXECUTIONTIME="00h:00m:03s.34ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="43" NAME="性能启动" DESCRIPTION="应用程序应该提供反应敏捷的启动，同时 CPU、文件 IO 和内存的使用合理" EXECUTIONTIME="00h:03m:19s.15ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="44" NAME="性能挂起" DESCRIPTION="应用程序应该提供反应敏捷的挂起，同时 CPU 和文件 IO 的使用合理" EXECUTIONTIME="00h:01m:38s.04ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="19" TITLE="应用清单资源测试" RATIONALE="Appx 包清单应该按照 Appx 打包规范和 Appx 清单架构的规定在 resources.pri 文件中定义有效资源。">
+      <TEST INDEX="45" NAME="应用资源验证" DESCRIPTION="包应该在 resources.pri 文件中定义有效资源。" EXECUTIONTIME="00h:00m:01s.72ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="61" NAME="品牌验证" DESCRIPTION="应用不应使用 Windows SDK 示例或 Visual Studio 打包的默认映像。" EXECUTIONTIME="00h:00m:04s.86ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="20" TITLE="调试配置测试" RATIONALE="应用不应该安装任何调试二进制文件。">
+      <TEST INDEX="46" NAME="调试配置" DESCRIPTION="应用不应该安装任何调试二进制文件。" EXECUTIONTIME="00h:00m:05s.06ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="21" TITLE="文件编码" RATIONALE="包含 HTML5 Windows 应用商店应用的包必须具有正确的文件编码。">
+      <TEST INDEX="49" NAME="UTF-8 文件编码" DESCRIPTION="包含 HTML5 Windows 应用商店应用的包必须具有正确的文件编码。" EXECUTIONTIME="00h:00m:02s.84ms">
+        <RESULT><![CDATA[FAIL]]></RESULT>
+        <MESSAGES>
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\jquery-2.0.min.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\globalize.min.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery-ui-1.10.1.custom.min.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.raphael.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.widget.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijbarchart.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijchartcore.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijpiechart.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+          <MESSAGE TEXT="文件 C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\raphael-min.js 未正确进行 UTF-8 编码。请将该文件重新保存为 UTF-8 (包括字节顺序标记)。" />
+        </MESSAGES>
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="22" TITLE="Direct3D 功能级别支持" RATIONALE="应用程序必须在 Direct3D 功能级别 9.1 硬件上呈现内容。">
+      <TEST INDEX="51" NAME="Direct3D 功能级别支持" DESCRIPTION="应用程序必须在 Direct3D 功能级别 9.1 硬件上呈现内容。" EXECUTIONTIME="00h:00m:01s.98ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="23" TITLE="应用功能测试" RATIONALE="在服务过程中，声明特殊用途功能的程序包必须提供论证。">
+      <TEST INDEX="52" NAME="特殊用途功能" DESCRIPTION="在服务过程中，声明特殊用途功能的程序包必须提供论证。" EXECUTIONTIME="00h:00m:02s.95ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+    <REQUIREMENT NUMBER="24" TITLE="Windows 运行时元数据验证" RATIONALE="在所有的生成源中，元数据需要保持一致。">
+      <TEST INDEX="56" NAME="ExclusiveTo 属性测试" DESCRIPTION="一个类不能实现标记了 ExclusiveTo 另一个类的接口。" EXECUTIONTIME="00h:00m:01s.67ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="57" NAME="类型位置测试" DESCRIPTION="必须使用最长的匹配名称空间在元数据文件中定义类型。" EXECUTIONTIME="00h:00m:00s.73ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="55" NAME="类型名称区分大小写测试" DESCRIPTION="名称空间和类型名称不得只有大小写区别。" EXECUTIONTIME="00h:00m:01s.27ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="54" NAME="类型名称正确性测试" DESCRIPTION="Windows 名称空间中只能包含系统类型，全局名称空间中不得包含类型。" EXECUTIONTIME="00h:00m:00s.73ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="58" NAME="一般元数据正确性测试" DESCRIPTION="元数据文件必须满足各种要求才是有效且正确的。" EXECUTIONTIME="00h:00m:02s.04ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+      <TEST INDEX="53" NAME="属性测试" DESCRIPTION="不得使用只写和索引器属性。对应的 getter 和 setter 方法类型必须匹配。" EXECUTIONTIME="00h:00m:00s.84ms">
+        <RESULT><![CDATA[PASS]]></RESULT>
+        <MESSAGES />
+      </TEST>
+    </REQUIREMENT>
+  </REQUIREMENTS>
+  <APPLICATIONS>
+    <Installed_Programs>
+      <Program Name="58186xuhonggang.AA" Type="Application" Source="AppxPackage" Publisher="CN=75472F7C-EAA4-4784-A91F-F6DEE7B4626A" Version="1.0.0.1" Language="1033" OnSystemDrive="true" RootDirPath="C:\Program Files\WindowsApps\58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp" PathEvidenceId="0x15f3" RNP="0x1" DNP="0xd" EvidenceId="0x15f3" Id="0000619208951d2b39daa3e5542df8e311a800000904">
+        <Indicators>
+          <DirectoryIndicators>
+            <Directory Name="58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" RNP="0x9" DNP="0xb" UniqueId="0x15f4" Id="00003b2c281190a6d66b95c5dedf3c47a7259951aa35" />
+            <Directory Name="models" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\models" RNP="0x9" DNP="0xb" UniqueId="0x1603" Id="00003c5cddfe927dbb07ff79001e0d64c461c9793c1e" />
+            <Directory Name="chart" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0x9" DNP="0xb" UniqueId="0x1605" Id="0000674ac2cda942a90183e4ef20179bf7a93fd68c27" />
+            <Directory Name="js" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0x9" DNP="0xb" UniqueId="0x15fd" Id="0000ed830a2cad918e620bb3cae846c3985ea8ddae26" />
+          </DirectoryIndicators>
+          <PackageManifestIndicator>
+            <PackageManifest PackageFullName="58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" />
+            <Identity Name="58186xuhonggang.AA" Version="1.0.0.1" Publisher="CN=75472F7C-EAA4-4784-A91F-F6DEE7B4626A" ProcessorArchitecture="x86" />
+            <Dependencies>
+              <PackageDependency Name="Microsoft.WinJS.1.0" MinVersion="1.0.9200.20789" />
+              <PackageDependency Name="Microsoft.VCLibs.110.00" MinVersion="11.0.51106.1" />
+            </Dependencies>
+            <Properties>
+              <DisplayName>AA制生活</DisplayName>
+              <PublisherDisplayName>xuhonggang</PublisherDisplayName>
+              <Logo>images\storelogo.png</Logo>
+            </Properties>
+            <Resources>
+              <Resource Language="ZH-CN" />
+            </Resources>
+            <Prerequisites>
+              <OSMinVersion>6.2.1</OSMinVersion>
+              <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+            </Prerequisites>
+            <Capabilities>
+              <Capability Name="internetClient" />
+            </Capabilities>
+          </PackageManifestIndicator>
+        </Indicators>
+        <StaticProperties>
+          <Files Id="00008860ea1bbd37a7b9e3a800c6dab64463d69575b5">
+            <File Name="Js_CSharp.js" Id="0000eab67e22f927eab3f9139488f8a8750b6e9829ed" ShortName="JS_CSH~1.JS" Size="0x2f5" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\Models" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\models\js_csharp.js" LongPathHash="0000d4b29c31202b270ea9442b75abff4b543d15e442" UniqueId="0x1604" />
+            <File Name="jquery.wijmo.widget.js" Id="000013a73587bbbb53ea4a0fb507fb0aea8f4863356c" ShortName="JQUERY~2.JS" Size="0x3d73" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.widget.js" LongPathHash="0000b7342583bdd233d3b489b1960527d96cca95a6c9" UniqueId="0x1609" />
+            <File Name="BuyUser.js" Id="0000829f1f04901ada248ad180d77364f4add396f28e" Size="0x574" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\buyuser.js" LongPathHash="00000dbbddf38a10974e0c98dbf4a0503c8456446371" UniqueId="0x15ff" />
+            <File Name="jquery-ui-1.10.1.custom.min.js" Id="0000836b4ce3a5cb00284e4deea53c6dd0e6daefc88a" ShortName="JQ98CA~1.JS" Size="0x37b33" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery-ui-1.10.1.custom.min.js" LongPathHash="00001166fbd1c6eed4ff9b1211565c2202d83cd04bba" UniqueId="0x1607" />
+            <File Name="jquery.wijmo.raphael.js" Id="000049a09e0938b47108c5cef51ae1d8cc6ad9196d63" ShortName="JQUERY~1.JS" Size="0x7f1b" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.raphael.js" LongPathHash="0000497b3bea5b7aed568812daded5ccb1e76eb49325" UniqueId="0x1608" />
+            <File Name="chart.js" Id="0000adbee2cf931ad3d654c2e2138f1cc98bd6502488" Size="0x1e91" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart.js" LongPathHash="0000a21a6ad9ccc426b3621ecc8ae3d83955fde6ef39" UniqueId="0x1600" />
+            <File Name="jquery.wijmo.wijbarchart.js" Id="0000c518e9b03d6c8fb03719ef6126badf6d69acdad0" ShortName="JQUERY~3.JS" Size="0x11dc1" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijbarchart.js" LongPathHash="0000582fc7b51492d1015e0c10f172fd79e9326115c9" UniqueId="0x160a" />
+            <File Name="globalize.min.js" Id="000052dea1f2c81edb730c6fc85671118274ff438f70" ShortName="GLOBAL~1.JS" Size="0x3924" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\globalize.min.js" LongPathHash="0000e1b7205d0afbc51a7c62c2e360cb3a0482611c77" UniqueId="0x1606" />
+            <File Name="default.js" Id="0000f210c5b0f9401e2715ab175f9c1dcb756b0551eb" Size="0x2202" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\default.js" LongPathHash="0000e6e71451402c604370f1f04a2f3c5449dda685ca" UniqueId="0x1601" />
+            <File Name="Base.js" Id="0000137d297bf07d6210b8f724f50c1654b01f48bd15" Size="0x3f7" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\base.js" LongPathHash="0000b0a2f4df4cb1439212653bdd0cdf928b3c7a3079" UniqueId="0x15fe" />
+            <File Name="jquery.wijmo.wijchartcore.js" Id="0000a0318962a1944b8b629d9d784365425e88201806" ShortName="JQUERY~4.JS" Size="0x524d3" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijchartcore.js" LongPathHash="0000e06b47a91ad192780ee234486d24fd28e3089a87" UniqueId="0x160b" />
+            <File Name="raphael-min.js" Id="0000bc9ac3101fb7247aae1310481f940b30f0dc1873" ShortName="RAPHAE~1.JS" Size="0x19230" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\raphael-min.js" LongPathHash="00005e9364b923307a2a98624c75fb3da547766c34df" UniqueId="0x160d" />
+            <File Name="jquery-2.0.min.js" Id="0000d3ddcc0d5bdfdfc04d8031fa0b09b27596d6c062" ShortName="JQUERY~1.JS" Size="0x146a0" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\jquery-2.0.min.js" LongPathHash="000068c4b0bc5b19ae48a143f6b5eabe44c6d17c0aa2" UniqueId="0x1602" />
+            <File Name="jquery.wijmo.wijpiechart.js" Id="0000007406c6c460f7a279d7d3d877a37c4f36fdcff0" ShortName="JQ21B6~1.JS" Size="0xee83" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\js\chart\jquery.wijmo.wijpiechart.js" LongPathHash="000022842922c7638d31d9a9e306500f3abdbaab7e27" UniqueId="0x160c" />
+            <File Name="default.html" Id="0000200b468e9c39361bd945568a7ac659be1bcf5a58" ShortName="DEFAUL~1.HTM" Size="0x10ca" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" RNP="0xa" DNP="0x9" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\default.html" LongPathHash="0000c896abd07ce7bc80606ce47a42d0cca6bc9ed68a" UniqueId="0x15f6" />
+            <File Name="MeData.dll" Id="00007549c40e21547b2fa34502fc4c49101900d292e6" ProductName="MeData" ProductVersion="1.0.0.0" VerLanguage="0" SwitchBackContext="0x0100000000000600" FileVersion="1.0.0.0" Size="0xf400" SizeOfImage="0x16000" PeHeaderHash="01016c01d0be38d75359a816e12c429366c69733e808" PeChecksum="0x0" PeImageType="0x14c" PeSubsystem="3" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="MeData" InternalName="MeData.dll" LegalCopyright="Copyright ©  2013" LinkerVersion="11.0" LinkDate="09/04/2013 16:28:50" BinaryType="DOTNET32" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" OriginalFilename="MeData.dll" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" RNP="0x4" DNP="0x5" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\medata.dll" LongPathHash="00004c84430b421ead8b6056595156d40db6ca9fce64" UniqueId="0x15f7" />
+            <File Name="DataControl.winmd" Id="00001b17f18927749ade765cb666e4d9c1e388708e2e" ProductName="DataControl" ProductVersion="1.0.0.0" VerLanguage="0" ShortName="DATACO~1.WIN" SwitchBackContext="0x0100000000000602" FileVersion="1.0.0.0" Size="0x2800" SizeOfImage="0x8000" PeHeaderHash="0101cfb1fa36f23c6f1c073863404901af08f8a2daa6" PeChecksum="0x0" PeImageType="0x14c" PeSubsystem="3" BinProductVersion="1.0.0.0" BinFileVersion="1.0.0.0" FileDescription="DataControl" InternalName="DataControl.winmdobj" LegalCopyright="Copyright ©  2013" LinkerVersion="11.0" LinkDate="09/05/2013 10:50:54" BinaryType="DOTNET32" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:18" OriginalFilename="DataControl.winmdobj" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" RNP="0x4" DNP="0x5" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\datacontrol.winmd" LongPathHash="0000d37fbed14c43f3db7941cfa755dfdb28d2afb540" UniqueId="0x15f5" />
+            <File Name="sqlite3.dll" Id="000089255267fe793261189626b5db540a27bd469454" ProductName="SQLite" CompanyName="SQLite Development Team" ProductVersion="3.8.0" VerLanguage="1033" SwitchBackContext="0x0100000000000602" FileVersion="3.8.0" Size="0xc6c00" SizeOfImage="0xc9000" PeHeaderHash="010191e2fb4d099f2ff2ce2030140855229966266b22" PeChecksum="0x0" PeImageType="0x14c" PeSubsystem="2" BinProductVersion="3.8.0.0" BinFileVersion="3.8.0.0" FileDescription="SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine." InternalName="sqlite3" LegalCopyright="http://www.sqlite.org/copyright.html" LinkerVersion="11.0" LinkDate="08/26/2013 19:02:09" BinaryType="UNKNOWN" Created="09/05/2013 12:35:18" Modified="09/05/2013 12:35:19" Path="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp" RNP="0x4" DNP="0x5" LowerCaseLongPath="c:\program files\windowsapps\58186xuhonggang.aa_1.0.0.1_x86__ft2z5crqtdhvp\sqlite3.dll" LongPathHash="00004971d78578cae4a519fadc657f034661e93a9c35" UniqueId="0x15f8" />
+          </Files>
+        </StaticProperties>
+      </Program>
+    </Installed_Programs>
+  </APPLICATIONS>
+  <DEPENDENCY_INFORMATION>
+    <AitStaticAnalysis ProgramId="0000619208951d2b39daa3e5542df8e311a800000904" AnalysisVersion="1.54" DictionaryVersion="1.6" Type="Package" Id="58186xuhonggang.AA_1.0.0.1_x86__ft2z5crqtdhvp">
+      <AitFile ErrorCode="0" Name="jquery.wijmo.wijpiechart.js" Id="0000007406c6c460f7a279d7d3d877a37c4f36fdcff0" />
+      <AitFile ErrorCode="0" Name="Base.js" Id="0000137d297bf07d6210b8f724f50c1654b01f48bd15">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="Windows.UI.Popups.MessageDialog" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.wijmo.widget.js" Id="000013a73587bbbb53ea4a0fb507fb0aea8f4863356c" />
+      <AitFile ErrorCode="0" Name="DataControl.winmd" Id="00001b17f18927749ade765cb666e4d9c1e388708e2e">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorDllMain" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.Foundation.Metadata.ActivatableAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.ActivatableAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.DefaultAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.DefaultAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.ExclusiveToAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.ExclusiveToAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.GuidAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.GuidAttribute..ctor" />
+          <AitFeature Name="Windows.Foundation.Metadata.VersionAttribute" />
+          <AitFeature Name="Windows.Foundation.Metadata.VersionAttribute..ctor" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="default.html" Id="0000200b468e9c39361bd945568a7ac659be1bcf5a58">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS" />
+          <AitFeature Name="WinJS.1.0" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.wijmo.raphael.js" Id="000049a09e0938b47108c5cef51ae1d8cc6ad9196d63" />
+      <AitFile ErrorCode="0" Name="globalize.min.js" Id="000052dea1f2c81edb730c6fc85671118274ff438f70" />
+      <AitFile ErrorCode="0" Name="MeData.dll" Id="00007549c40e21547b2fa34502fc4c49101900d292e6">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="mscoree.dll!_CorDllMain" />
+        </AitCategory>
+        <AitCategory Id="DotNetWinRt">
+          <AitFeature Name="Windows.Storage.ApplicationData" />
+          <AitFeature Name="Windows.Storage.ApplicationData.get_Current" />
+          <AitFeature Name="Windows.Storage.ApplicationData.get_LocalFolder" />
+          <AitFeature Name="Windows.Storage.ApplicationData.get_TemporaryFolder" />
+          <AitFeature Name="Windows.Storage.StorageFolder" />
+          <AitFeature Name="Windows.Storage.StorageFolder.get_Path" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="BuyUser.js" Id="0000829f1f04901ada248ad180d77364f4add396f28e" />
+      <AitFile ErrorCode="0" Name="jquery-ui-1.10.1.custom.min.js" Id="0000836b4ce3a5cb00284e4deea53c6dd0e6daefc88a" />
+      <AitFile ErrorCode="0" Name="sqlite3.dll" Id="000089255267fe793261189626b5db540a27bd469454">
+        <AitCategory Id="ApiStatic">
+          <AitFeature Name="msvcr110.dll!__CppXcptFilter" />
+          <AitFeature Name="msvcr110.dll!__clean_type_info_names_internal" />
+          <AitFeature Name="msvcr110.dll!__crtTerminateProcess" />
+          <AitFeature Name="msvcr110.dll!__crtUnhandledException" />
+          <AitFeature Name="msvcr110.dll!__dllonexit" />
+          <AitFeature Name="msvcr110.dll!_amsg_exit" />
+          <AitFeature Name="msvcr110.dll!_calloc_crt" />
+          <AitFeature Name="msvcr110.dll!_crt_debugger_hook" />
+          <AitFeature Name="msvcr110.dll!_except_handler4_common" />
+          <AitFeature Name="msvcr110.dll!_initterm" />
+          <AitFeature Name="msvcr110.dll!_initterm_e" />
+          <AitFeature Name="msvcr110.dll!_localtime64_s" />
+          <AitFeature Name="msvcr110.dll!_lock" />
+          <AitFeature Name="msvcr110.dll!_malloc_crt" />
+          <AitFeature Name="msvcr110.dll!_onexit" />
+          <AitFeature Name="msvcr110.dll!_unlock" />
+          <AitFeature Name="msvcr110.dll!free" />
+          <AitFeature Name="msvcr110.dll!malloc" />
+          <AitFeature Name="msvcr110.dll!memcpy" />
+          <AitFeature Name="msvcr110.dll!memmove" />
+          <AitFeature Name="msvcr110.dll!memset" />
+          <AitFeature Name="msvcr110.dll!qsort" />
+          <AitFeature Name="msvcr110.dll!realloc" />
+          <AitFeature Name="msvcr110.dll!strncmp" />
+          <AitFeature Name="kernel32.dll!CloseHandle" />
+          <AitFeature Name="kernel32.dll!CreateEventExW" />
+          <AitFeature Name="kernel32.dll!CreateFile2" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingFromApp" />
+          <AitFeature Name="kernel32.dll!DecodePointer" />
+          <AitFeature Name="kernel32.dll!DeleteCriticalSection" />
+          <AitFeature Name="kernel32.dll!DeleteFileW" />
+          <AitFeature Name="kernel32.dll!DisableThreadLibraryCalls" />
+          <AitFeature Name="kernel32.dll!EncodePointer" />
+          <AitFeature Name="kernel32.dll!EnterCriticalSection" />
+          <AitFeature Name="kernel32.dll!FlushFileBuffers" />
+          <AitFeature Name="kernel32.dll!FormatMessageW" />
+          <AitFeature Name="kernel32.dll!FreeLibrary" />
+          <AitFeature Name="kernel32.dll!GetCurrentProcessId" />
+          <AitFeature Name="kernel32.dll!GetCurrentThreadId" />
+          <AitFeature Name="kernel32.dll!GetFileAttributesExW" />
+          <AitFeature Name="kernel32.dll!GetFileInformationByHandleEx" />
+          <AitFeature Name="kernel32.dll!GetLastError" />
+          <AitFeature Name="kernel32.dll!GetNativeSystemInfo" />
+          <AitFeature Name="kernel32.dll!GetProcAddress" />
+          <AitFeature Name="kernel32.dll!GetProcessHeap" />
+          <AitFeature Name="kernel32.dll!GetSystemTime" />
+          <AitFeature Name="kernel32.dll!GetSystemTimeAsFileTime" />
+          <AitFeature Name="kernel32.dll!GetTickCount64" />
+          <AitFeature Name="kernel32.dll!HeapAlloc" />
+          <AitFeature Name="kernel32.dll!HeapFree" />
+          <AitFeature Name="kernel32.dll!HeapReAlloc" />
+          <AitFeature Name="kernel32.dll!HeapSize" />
+          <AitFeature Name="kernel32.dll!InitializeCriticalSectionEx" />
+          <AitFeature Name="kernel32.dll!InterlockedCompareExchange" />
+          <AitFeature Name="kernel32.dll!IsDebuggerPresent" />
+          <AitFeature Name="kernel32.dll!IsProcessorFeaturePresent" />
+          <AitFeature Name="kernel32.dll!LeaveCriticalSection" />
+          <AitFeature Name="kernel32.dll!LoadPackagedLibrary" />
+          <AitFeature Name="kernel32.dll!LockFileEx" />
+          <AitFeature Name="kernel32.dll!MapViewOfFileFromApp" />
+          <AitFeature Name="kernel32.dll!MultiByteToWideChar" />
+          <AitFeature Name="kernel32.dll!OutputDebugStringW" />
+          <AitFeature Name="kernel32.dll!QueryPerformanceCounter" />
+          <AitFeature Name="kernel32.dll!ReadFile" />
+          <AitFeature Name="kernel32.dll!SetEndOfFile" />
+          <AitFeature Name="kernel32.dll!SetFilePointerEx" />
+          <AitFeature Name="kernel32.dll!SystemTimeToFileTime" />
+          <AitFeature Name="kernel32.dll!UnlockFileEx" />
+          <AitFeature Name="kernel32.dll!UnmapViewOfFile" />
+          <AitFeature Name="kernel32.dll!WaitForSingleObjectEx" />
+          <AitFeature Name="kernel32.dll!WideCharToMultiByte" />
+          <AitFeature Name="kernel32.dll!WriteFile" />
+        </AitCategory>
+        <AitCategory Id="ApiDynamic">
+          <AitFeature Name="msvcr110.dll!abs" />
+          <AitFeature Name="msvcr110.dll!log" />
+          <AitFeature Name="msvcr110.dll!strftime" />
+          <AitFeature Name="kernel32.dll!AreFileApisANSI" />
+          <AitFeature Name="kernel32.dll!CreateFileA" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingA" />
+          <AitFeature Name="kernel32.dll!CreateFileMappingW" />
+          <AitFeature Name="kernel32.dll!CreateFileW" />
+          <AitFeature Name="kernel32.dll!CreateMutexW" />
+          <AitFeature Name="kernel32.dll!DeleteFileA" />
+          <AitFeature Name="kernel32.dll!FileTimeToLocalFileTime" />
+          <AitFeature Name="kernel32.dll!FileTimeToSystemTime" />
+          <AitFeature Name="kernel32.dll!FormatMessageA" />
+          <AitFeature Name="kernel32.dll!GetDiskFreeSpaceA" />
+          <AitFeature Name="kernel32.dll!GetDiskFreeSpaceW" />
+          <AitFeature Name="kernel32.dll!GetFileAttributesA" />
+          <AitFeature Name="kernel32.dll!GetFileAttributesW" />
+          <AitFeature Name="kernel32.dll!GetFileSize" />
+          <AitFeature Name="kernel32.dll!GetFullPathNameA" />
+          <AitFeature Name="kernel32.dll!GetFullPathNameW" />
+          <AitFeature Name="kernel32.dll!GetSystemInfo" />
+          <AitFeature Name="kernel32.dll!GetTempPathA" />
+          <AitFeature Name="kernel32.dll!GetTempPathW" />
+          <AitFeature Name="kernel32.dll!GetTickCount" />
+          <AitFeature Name="kernel32.dll!GetVersionExA" />
+          <AitFeature Name="kernel32.dll!HeapCreate" />
+          <AitFeature Name="kernel32.dll!HeapDestroy" />
+          <AitFeature Name="kernel32.dll!HeapValidate" />
+          <AitFeature Name="kernel32.dll!LoadLibraryA" />
+          <AitFeature Name="kernel32.dll!LoadLibraryW" />
+          <AitFeature Name="kernel32.dll!LocalFree" />
+          <AitFeature Name="kernel32.dll!LockFile" />
+          <AitFeature Name="kernel32.dll!MapViewOfFile" />
+          <AitFeature Name="kernel32.dll!OutputDebugStringA" />
+          <AitFeature Name="kernel32.dll!SetFilePointer" />
+          <AitFeature Name="kernel32.dll!Sleep" />
+          <AitFeature Name="kernel32.dll!UnlockFile" />
+          <AitFeature Name="kernel32.dll!WaitForSingleObject" />
+        </AitCategory>
+      </AitFile>
+      <AitFile ErrorCode="0" Name="jquery.wijmo.wijchartcore.js" Id="0000a0318962a1944b8b629d9d784365425e88201806" />
+      <AitFile ErrorCode="0" Name="chart.js" Id="0000adbee2cf931ad3d654c2e2138f1cc98bd6502488" />
+      <AitFile ErrorCode="0" Name="raphael-min.js" Id="0000bc9ac3101fb7247aae1310481f940b30f0dc1873" />
+      <AitFile ErrorCode="0" Name="jquery.wijmo.wijbarchart.js" Id="0000c518e9b03d6c8fb03719ef6126badf6d69acdad0" />
+      <AitFile ErrorCode="0" Name="jquery-2.0.min.js" Id="0000d3ddcc0d5bdfdfc04d8031fa0b09b27596d6c062" />
+      <AitFile ErrorCode="0" Name="Js_CSharp.js" Id="0000eab67e22f927eab3f9139488f8a8750b6e9829ed" />
+      <AitFile ErrorCode="0" Name="default.js" Id="0000f210c5b0f9401e2715ab175f9c1dcb756b0551eb">
+        <AitCategory Id="WRTJavaScript">
+          <AitFeature Name="WinJS.Application" />
+          <AitFeature Name="WinJS.Application.sessionState" />
+          <AitFeature Name="WinJS.Binding.optimizeBindingReferences" />
+          <AitFeature Name="WinJS.UI.processAll" />
+          <AitFeature Name="Windows.ApplicationModel.Activation" />
+        </AitCategory>
+      </AitFile>
+    </AitStaticAnalysis>
+  </DEPENDENCY_INFORMATION>
+</REPORT>

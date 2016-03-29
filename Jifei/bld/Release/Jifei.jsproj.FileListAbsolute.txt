@@ -1,0 +1,2 @@
+F:\源代码\Jifei\Jifei\bin\Release\DataControl.winmd
+F:\源代码\Jifei\Jifei\bld\Release\Jifei.jsprojResolveAssemblyReference.cache

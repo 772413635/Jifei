@@ -1,0 +1,359 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow: auto;
+    font-size: 62.5%;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+/*布局*/
+#main {
+    width: 1366px;
+    height: 100%;
+}
+
+#left {
+    width: 79px;
+    height: 100%;
+}
+
+#head {
+    height: 87px;
+    width: 1190px;
+}
+
+#center {
+    height: 583px;
+    width: 1190px;
+}
+
+#floor {
+    height: 98px;
+    width: 1190px;
+}
+
+#left, #head, #center, #floor {
+    float: left;
+}
+
+/*内容*/
+.me_button {
+    text-align: center;
+    line-height: 32px;
+    background-color: #b71960;
+    color: white;
+    border: none;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+    .me_button:hover {
+        background-color: #d12472;
+    }
+
+    .me_button:active {
+        background-color: #8e164c;
+    }
+
+input[type='checkbox'] {
+    border: 0px solid #949393;
+    background: white;
+    height: 15px;
+    width: 15px;
+    padding: 0;
+    margin: -5px;
+}
+
+
+#btn_jisuan {
+    font-size: 1.8em;
+    width: 100px;
+    height: 36px;
+    position: relative;
+    top: 41px;
+}
+
+#bill {
+    width: 542px;
+    height: 583px;
+    background-color: #93a9bb;
+}
+
+#chart {
+    width: 612px;
+    height: 315px;
+    background-color: #6a6a6a;
+}
+
+
+#result {
+    width: 612px;
+    height: 229px;
+    background-color: #6a6a6a;
+    margin-top: 39px;
+}
+
+#result, #chart {
+    margin-left: 36px;
+}
+
+#bill, #chart, #result {
+    float: left;
+}
+
+
+/*结果块*/
+#result_content {
+    position: relative;
+    top: 57px;
+    left: 75px;
+    padding: 0;
+    height: 92px;
+    width: 488px;
+}
+
+.me_result {
+    font-family: "arial";
+    font-size: 12em;
+    color: white;
+    line-height: 92px;
+    height: 92px;
+    float: left;
+    width: 100px;
+    text-shadow: 1px 1px 0px black;
+}
+#me_result {
+    position: relative;
+    top: 7px;
+}
+
+
+/*图标块*/
+#tip {
+    width: 117px;
+    height: 100%;
+}
+
+#chart_content, #chart_content2, #chartPieNone,#chartPieNone2 {
+    width: 468px;
+    height: 274px;
+    margin-top: 22px;
+    background-color: white;
+}
+
+#chartPieNone,#chartPieNone2 {
+    line-height: 220px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: "微软雅黑";
+}
+#chartPieNone img,#chartPieNone2 img {
+    position: relative;
+    top: 20px;
+}
+
+#chart_content, #tip, #chart_content2, #chartPieNone,#chartPieNone2 {
+    float: left;
+}
+#chartPieNone2 {
+    position: relative;
+    top: -296px;
+    left: 0px;
+    z-index: 9999;
+}
+#tip_cloumn, #tip_bar {
+    width: 96px;
+    height: 35px;
+}
+
+.tip {
+    background-color: #424242;
+}
+
+.tip_active {
+    background-color: #b71944;
+}
+
+#tip_cloumn:hover, #tip_bar:hover {
+    width: 96px;
+    height: 35px;
+    background-color: #d9406a;
+}
+
+#tip_cloumn {
+    margin-top: 65px;
+    background-image: url("/images/cloumn.png");
+    background-repeat: no-repeat;
+    background-position: 29px;
+}
+
+#tip_bar {
+    margin-top: 15px;
+    background-image: url("/images/bar.png");
+    background-repeat: no-repeat;
+    background-position: 29px;
+}
+
+
+/*账单块*/
+#bill_control {
+    height: 71px;
+    width: 540px;
+    border: 1px solid #93a9bb;
+}
+
+#bill_content {
+    width: 466px;
+    height: 481px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bill_control_content {
+    width: 432px;
+    height: 25px;
+    margin-top: 27px;
+    margin-left: 74px;
+}
+
+    #bill_control_content ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #bill_control_content li {
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        float: left;
+        width: 108px;
+    }
+
+        #bill_control_content li input[type='text'], #bill_control_content li input[type='number'] {
+            margin: 0px;
+            width: 96px;
+            height: 23px;
+            border: 1px solid #6f8ba2;
+            color: #ddf;
+        }
+
+#bill_jiyibi {
+    font-size: 1.4em;
+    line-height: 25px;
+    width: 68px;
+    height: 29px;
+    position: relative;
+}
+
+#xxx01 {
+    width: 100%;
+    height: 17px;
+    background: url("/images/xxx01.png") no-repeat;
+}
+
+#xxx02 {
+    width: 438px;
+    max-height: 434px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: white;
+    top: -8px;
+    overflow-y: auto;
+    border-left: 1px solid #878686;
+    border-right: 1px solid #878686;
+}
+
+#xxx00 {
+    border-left: 1px solid #878686;
+    border-right: 1px solid #878686;
+    height: 22px;
+    width: 438px;
+    background-color: white;
+    position: relative;
+    top: -8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#xxx03 {
+    position: relative;
+    top: -9px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 442px;
+    height: 19px;
+    background: url("/images/xxx03.png") no-repeat;
+}
+
+#bill_content_table {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 414px;
+    border-bottom: none;
+}
+
+    #bill_content_table td {
+        margin: 0;
+        padding: 0;
+        height: 30px;
+        border-bottom: 1px solid #aeacac;
+    }
+
+.td_ck {
+    width: 54px;
+}
+
+.td_cn {
+    width: 120px;
+}
+
+.td_ck, .td_cn {
+    text-align: center;
+    font-family: "宋体";
+    font-size: 1.4em;
+}
+
+.selectUserDiv {
+    background-color: #fff;
+    height: 0px;
+    width: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 30;
+    margin-top: 5px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border: 1px solid #aeacac;
+    box-shadow: 1px 1px 6px #777;
+}
+
+#selectUserUl li {
+    width: 100%;
+    height: 100%;
+    line-height: 25px;
+    font-size: 1.3em;
+    text-indent: 5px;
+    border-top: 1px dotted #333;
+}
+
+    #selectUserUl li:hover {
+        background-color: #6f8ba2;
+        color: white;
+    }
